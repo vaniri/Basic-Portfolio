@@ -5,11 +5,15 @@ body {
     color: #777777;
 }
 
-.nav {
+header {
     background-color: #ffffff;
-    margin: 0;
-    padding: 0;
     border-bottom: solid #cccccc;
+}
+
+.nav {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .head-container {
@@ -23,16 +27,13 @@ h1 {
     background-color: #4aaaa5;
     padding: 1em;
     color: #ffffff;
-    width: 13%;
     margin: 0;
-    margin-left: 10.6em;
     font-size: 30px;
     font-weight: 100;
 }
 
 #nav-bar {
     float: right;
-    width: 34%;
     background-color: #fcfcfc;
 }
 
@@ -78,10 +79,11 @@ img {
     padding: 0;
 }
 
-h2 {
+.about-me h2 {
     font-weight: 200;
     font-size: 40px;
     color: #4aaaa5;
+    margin: 0;
 }
 
 .main-info {
@@ -93,13 +95,14 @@ h2 {
     clear: both;
     width: 960px;
     border: solid #dddddd;
+    box-sizing: border-box;
 }
 
 p {
     font-size: 18px;
 }
 
-p a{
+p a {
     color: rgba(5, 5, 5, 0.667);
     font-size: 17px;
     font-weight: 600;
