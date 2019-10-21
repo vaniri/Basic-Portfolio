@@ -39,8 +39,6 @@ h1 {
 
 li {
     display: inline;
-    margin: 0;
-    padding: 0;
 }
 
 a {
@@ -52,7 +50,6 @@ a {
     display: inline-block;
     font-size: 20px;
     font-weight: 200;
-    cursor: pointer;
 }
 
 #portfolio {
@@ -92,7 +89,6 @@ img {
     margin-top: 2em;
     padding: 2em;
     text-align: justify;
-    clear: both;
     width: 960px;
     border: solid #dddddd;
     box-sizing: border-box;
@@ -117,5 +113,4 @@ footer {
     text-align: center;
     color: lightgray;
     padding: 1em 0 1em 0;
-    margin: 0;
 }
