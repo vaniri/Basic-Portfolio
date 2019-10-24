@@ -58,11 +58,15 @@ header a, a:active {
     display: inline-block;
     font-size: 18px;
     font-weight: 200;
+    opacity: 0.6;
+    transition: 0.3s;
 }
 
 header a:hover {
+    cursor: pointer;
     color: #4aaaa5;
     text-decoration: underline;
+    opacity: 1;
 }
 
 .p-links {
@@ -73,10 +77,11 @@ header a:hover {
     margin: 0;
     font-size: 15px;
     font-weight: 100;
-    color: #9cc5c3;
+    color: #85c4c0;
 }
 
 .p-links:hover {
+    cursor: pointer;
     border: none;
     background-color: #ffffff;
     color: #4aaaa5;
@@ -128,7 +133,13 @@ p {
 
 .portfolio-pic {
     padding: 1em;
-    margin: 0;
+    transition-timing-function: ease-in-out;
+    transition: 0.5s;
+}
+
+.portfolio-pic:hover {
+    cursor: pointer;
+    transform: scale(1.2);
 }
 
 .text-box {
@@ -229,7 +240,7 @@ input[type=text] {
     left: -3px;
     height: 2px;
     background-image: -webkit-gradient(linear, 0 0, 100% 0, from(rgb(32, 32, 32)), to(transparent));
-  background-image: -webkit-linear-gradient(right, #000, transparent);
-  background-image: -moz-linear-gradient(right, #000, transparent);
-  background-image: -o-linear-gradient(right, #000, transparent);
+    background-image: -webkit-linear-gradient(right, #000, transparent);
+    background-image: -moz-linear-gradient(right, #000, transparent);
+    background-image: -o-linear-gradient(right, #000, transparent);
 }
