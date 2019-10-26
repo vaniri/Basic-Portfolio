@@ -253,13 +253,15 @@ hr {
 }
 
 label {
-    border:1px solid #ccc;
-    padding:10px;
-    margin:0 0 10px;
-    display:block; 
+    padding-top: 5px;
+    display:block;
+
    }
    
    label:hover {
-    background:#eee;
     cursor:pointer;
+   }
+
+   #message-window {
+    margin-top: 12px;
    }
