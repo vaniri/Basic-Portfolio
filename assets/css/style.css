@@ -251,3 +251,15 @@ hr {
     margin-top: 15px;
     margin-bottom: 15px;
 }
+
+label {
+    border:1px solid #ccc;
+    padding:10px;
+    margin:0 0 10px;
+    display:block; 
+   }
+   
+   label:hover {
+    background:#eee;
+    cursor:pointer;
+   }
