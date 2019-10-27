@@ -272,10 +272,6 @@ label {
         width: 480px;
     }
 
-    body {
-        width: 480px;
-    }
-
     #bio-photo{
         float: none;
     }
@@ -299,4 +295,51 @@ label {
     header {
         height: 50px;
     }
+    
+  }
+
+  @media only screen and (max-width: 640px) {
+    .main-info, .portfolio-box, .contact-box {
+        width: 320px;
+    }
+
+    #bio-photo{
+        float: none;
+        width: 250px;
+        height: 180px;
+    }
+
+    header a, a:active {
+        padding: 0.07em 1em 0.07em 1em;
+        font-size: 15px;
+      
+    }
+
+    #nav-bar {
+        float: none;
+        padding: 0;
+        text-align: center;
+      
+    }
+
+    .nav-item:not(:first-child):before {
+        border-right: 1px solid #4aaaa5;
+    }
+    
+
+    h1 {
+        float: none;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .nav, footer {
+        width: 100%;
+     
+    }
+
+    header {
+        height: 100px;
+    }
+    
   }
