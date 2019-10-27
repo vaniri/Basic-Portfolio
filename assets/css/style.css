@@ -263,5 +263,36 @@ label {
    }
 
    #message-window {
-    margin-top: 12px;
+    margin-top: 12
+    px;
    }
+
+   @media only screen and (max-width: 1000px) {
+    .main-info, .portfolio-box, .contact-box, .nav {
+        width: 480px;
+    }
+
+    #bio-photo{
+        float: none;
+    }
+
+    header a, a:active {
+        padding: 0.07em 0.3em 0.07em 0.3em;
+        font-size: 15px;
+      
+    }
+
+    .nav-item:not(:first-child):before {
+        border-right: 1px solid #4aaaa5;
+    }
+    
+
+    h1 {
+        padding: 14px 0 14px 0;
+        font-size: 20px;
+    }
+
+    header {
+        height: 50px;
+    }
+  }
